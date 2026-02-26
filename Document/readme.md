@@ -13,12 +13,9 @@ Regulatory Efficiency
 Open Markets
 
 👥 Team
-BODAPATI SRI LAKSHMI LAVANYA
+Reddi Susmitha Sen(Team Leader)
+Beera Yamini
+Chodi Sai Koteswara Rao
+Gollapalli Manasa
 
-AKULA LEKHANA SAI
-
-ALLENA HARIBABU
-
-ALLU SATYANARAYANA MURTHY
-
-Team ID: LTVIP2025TMID50259
+Team ID: LTVIP2026TMID88300
