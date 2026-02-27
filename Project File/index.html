@@ -1,1 +1,68 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Measuring the Pulse of Prosperity: An Index of Economic Freedom Analysis</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    nav { background: #f0f0f0; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; font-weight: bold; color: #0077cc; }
+    nav a:hover { text-decoration: underline; }
+    .content { display: none; padding: 20px; }
+    .active { display: block; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#story">Story</a>
+  </nav>
+
+  <div id="home" class="content active">
+    <h1>Measuring the Pulse of Prosperity: An Index of Economic Freedom Analysis</h1>
+    <h3>Introduction:</h3>
+    <p>Economic freedom is the fundamental right of every human to control his or her own labor and property. In an economically free society, individuals are free to work, produce, consume, and invest in any way they please. In economically free societies, governments allow labor, capital, and goods to move freely, and refrain from coercion or constraint of liberty beyond the extent necessary to protect and maintain liberty itself.</p>
+    <p>For much of human history, most individuals have lacked economic freedom and opportunity, condemning them to poverty and deprivation.</p>
+    <p>Today, we live in the most prosperous time in human history. Poverty, sicknesses, and ignorance are receding throughout the world, due in large part to the advance of economic freedom. In 2022, the principles of economic freedom that have fueled this monumental progress are once again measured in the Index of Economic Freedom, an annual guide published by The Heritage Foundation, Washington's No. 1 think tank.</p>
+    <p>We measure economic freedom based on 12 quantitative and qualitative factors, grouped into four broad categories, or pillars, of economic freedom:</p>
+    <ul>
+      <li>Rule of law (property rights, government integrity, judicial effectiveness)</li>
+      <li>Government size (government spending, tax burden, fiscal health)</li>
+      <li>Regulatory efficiency (business freedom, labor freedom, monetary freedom)</li>
+      <li>Open markets (trade freedom, investment freedom, financial freedom)</li>
+    </ul>
+  </div>
+
+  <div id="about" class="content">
+    <h2>About</h2>
+    <p>This project integrates interactive Tableau dashboards and data stories to present insights on global economic freedom. It provides a streamlined platform for exploring trends, comparing countries, and understanding the factors driving economic prosperity through clear, data-driven visualizations and analyses.</p>
+  </div>
+
+  <div id="dashboard" class="content">
+    <h2>Dashboard</h2>
+    <iframe src="https://public.tableau.com/views/BANNUALLU/Dashboard1?:showVizHome=no&:embed=true" width="100%" height="800" style="border:none;"></iframe>
+  </div>
+
+  <div id="story" class="content">
+    <h2>Story</h2>
+    <iframe src="https://public.tableau.com/views/BANNUSTORY/Story1?:showVizHome=no&:embed=true" width="100%" height="800" style="border:none;"></iframe>
+  </div>
+
+  <script>
+    const links = document.querySelectorAll('nav a');
+    const sections = document.querySelectorAll('.content');
+
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        sections.forEach(sec => sec.classList.remove('active'));
+        document.querySelector(link.getAttribute('href')).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>
