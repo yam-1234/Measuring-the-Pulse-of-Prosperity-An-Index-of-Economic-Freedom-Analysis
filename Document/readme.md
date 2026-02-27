@@ -13,6 +13,7 @@ Regulatory Efficiency
 Open Markets
 
 👥 Team
+
 Reddi Susmitha Sen(Team Leader)
 
 Beera Yamini
